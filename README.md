@@ -1,2 +1,3 @@
 # Front-end-self-study-notes
-Help yourself roughly grasp the front-end knowledge
+- 帮助自己掌握前端方面的知识
+- 作为笔记以备复查
