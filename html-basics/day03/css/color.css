@@ -1,0 +1,7 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    background-color: hsl(53, 100%, 40%);
+    background: linear-gradient(blue, red);
+}

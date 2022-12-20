@@ -1,0 +1,36 @@
+p.first{
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* 第一个子元素 */
+atricle :first-child{
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* 第一类子元素 */
+article :first-of-type{
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* 指定元素类型 */
+article p:first-of-type{
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* 超链接伪类 */
+a:link{
+
+}
+a:visited{
+
+}
+a:hover{
+
+}
+a:focus{
+    
+}

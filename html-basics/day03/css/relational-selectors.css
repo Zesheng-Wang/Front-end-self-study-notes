@@ -1,0 +1,22 @@
+/* 后代选择器 */
+#products p{
+    color: orange;
+}
+
+/* 子元素选择器 */
+#products > p{
+    color: red;
+}
+
+
+/* 所有兄弟元素选择器 */
+#products ~ p{
+    color: black;
+}
+
+
+/* 相邻兄弟元素选择器 */
+#products + p{
+    color: pink;
+}
+
