@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    /* 3* 2 */
+    /* 定义行数 */
+    grid-template-rows: 100px 100px 200px;
+    /* 定义列数 */
+    grid-template-columns: 100px 100px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
+    grid-template: 100px 100px 100px /30fr 70fr ;
+    grid-template-areas: "header header" 
+                         "sidebar main" 
+                        "footer footer";
+    border: 3px solid lightgrey;
+    /* 元素水平方向对其 start end center*/
+    /* justify-items: center;
+    align-items: center; */
+    /* 网格对齐方式 */
+    /* justify-content: center;
+    align-content: center; */
+    /* 行间隔 */
+    row-gap: 10px;
+    /* 列间隔 */
+    column-gap: 10px;
+    /* 合并 */
+
+}
+.box{
+    /* width: 5rem;*/
+    height: 5rem; 
+    background: gold;
+}
+.box-one{
+    /* 从第一列到第三列 */
+    /* grid-column: 1 / 3;
+    grid-row : 2 / 4;
+    grid-area: 1 / 1 / 1/ 3; */
+    grid-area: header;
+
+}
+.box-two{
+    grid-area: sidebar;
+}
+.box-three{
+    grid-area: main;
+}
+.box-four{
+    grid-area: footer;
+}

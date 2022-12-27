@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+.box{
+    /* 父级元素的百分比 */
+    width: 50%;
+    height: 100px;
+    background-color: gold;
+}
+.box{
+    /* 父级元素的百分比 */
+    width: 50%;
+    width:30vw;
+    height: 100vh;
+    background-color: gold;
+}
+.box{
+    /* 父级元素的百分比 */
+    /* 10 x font size of the current element */
+    width: 10em;
+    width:30vw;
+    height: 100vh;
+    background-color: gold;
+}
+.box{
+    /* 父级元素的百分比 */
+    /* 10 x font size of the root element */
+    width: 10rem;
+    width:30vw;
+    height: 100vh;
+    background-color: gold;
+    box-sizing: border-box;
+}

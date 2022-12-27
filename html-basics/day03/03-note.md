@@ -1,15 +1,15 @@
 # 今日笔记
 # 能力目标
-- 使用css的方式
+## 使用css的方式
   - Embedded Stylesheets (内嵌样式表)
   - External Stylesheets (外链样式表)
   - Inline Stylesheets (行内样式)
 
-- Separation of Concerns(关注点分离)
+## Separation of Concerns(关注点分离)
   - HTML
   - CSS
-- CSS一致化(normalizing CSS)
-- Selectors(选择器)
+## CSS一致化(normalizing CSS)
+## Selectors(选择器)
   - Type
   - ID
     - 不同元素不可以有同一个ID
@@ -38,9 +38,9 @@
     - class/ attribute selectors
     - element selectors
     - !impoertant会忽视其它规则
-- Inheritance (继承)
+## Inheritance (继承)
   - border : inherit;
-- Colors(颜色)
+## Colors(颜色)
   - Named colors
   - RGB （0 - 255）
     - red
@@ -61,9 +61,9 @@
     - radial-gradient(color1, color2);
     - radial-gradient(circle, color1, color2);
     - radial-gradient(circle at top left, color1, color2);
-- Borders(边框)
+## Borders(边框)
   - border : 1px solid blue;
-- Shadows(阴影)
+## Shadows(阴影)
   - box-shadow : 10px 10px 10px grey;
     - 第一个参数阴影到元素的水平距离  正右负左
     - 第二个参数阴影到元素的垂直距离  正下负上

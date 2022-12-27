@@ -1,0 +1,40 @@
+.container{
+    border: 3px solid lightgrey;
+    display: flex;
+    /* 纵向排列 */
+    flex-direction: column; 
+    /* 纵向反转排列 */
+    flex-direction: column-reverse; 
+    /* 行反转排列 */
+    flex-direction: row-reverse;
+    /* 横向排列 */
+    flex-direction: row;
+    /* 所有的元素会被推向末尾 */
+    justify-content: flex-end;  
+    justify-content: center;
+    /* 空间平分 */
+    justify-content: space-evenly;
+    /* 前后会紧贴主轴的两端 */
+    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-end;
+    height: 90vh;
+    align-items: center;
+    flex-wrap: wrap;
+    /* 可以将多行元素作为一个整体进行对齐 */
+    /* align-content: center; */
+}
+.box{
+    flex-basis: 5rem;
+    flex-grow: 1;
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+.box-one{
+    align-self: flex-start;
+    align-self: flex-end;
+    flex-grow: 0;
+    flex-basis: 5rem;
+}

@@ -1,0 +1,29 @@
+body{
+    height: 200vh;
+}
+.boxes{
+    border: 3px solid lightgrey;
+    position: relative;
+}
+.box{
+    width: 5rem;
+    height: 5rem;
+}
+.box-one{
+    background-color: gold;
+    position: fixed;
+    top:0;
+}
+.box-two{
+    background-color: tomato;
+    position: relative;
+    left: 5rem;
+    z-index: -1;
+    /* right/top/bottom */
+}
+.box-three{
+    background-color: dodgerblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
