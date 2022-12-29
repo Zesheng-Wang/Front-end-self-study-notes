@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5% ;
+}
+
+body{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* 1 x font size of the root element */
+    font-size: 1rem;
+}
+
+p{
+    /* 字体栈 */
+    font-family: Arial, Helvetica, sans-serif;
+    /* 设置字体粗细 100-900*/
+    font-weight: 900;
+    /* 默认值bold七百 normal400*/
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    color: #111;
+    /* 一般来讲使用111 222作为字体颜色 */
+    width: 50ch;
+    /* 截断文字 */
+    /* white-space: nowrap;
+    border:3px solid gold;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 3px dotted #999;
+    direction: rtl;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Opensans';
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
