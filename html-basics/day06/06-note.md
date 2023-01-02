@@ -9,6 +9,7 @@
 - VECTOR （矢量图）
   - SVG ：Scalable Vector Graphics
 ## 背景图片
+  - 
 ## 雪碧图
 ## Data URLS
 ## 裁剪图片
